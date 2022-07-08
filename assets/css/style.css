@@ -1,0 +1,317 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    color: #2549D3;
+    font-family:'Courier New', Courier, monospace
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Space Grotesk';
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin: 30px 20px 20px 20px;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+    padding: 14px;
+    font-size: 28px;
+}
+
+.nav a:hover {
+    font-size: 32px;
+}
+
+.nav a.active {
+    color: #2549D3;
+    font-weight: 700;
+}
+
+.nav .icon {
+    display: none;
+  }
+
+.brand {
+    float: left;
+    font-family: 'Oleo Script';
+    font-size: 30px;
+}
+
+.button4 {
+    float: right;
+}
+
+.button , .learn-more, .search, .view-more, .view-more2 {
+    background-color: #2549D3;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    color: #FAFAFA;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+}
+
+.view-more {
+    float: right;
+}
+
+.intro {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row;
+}
+
+.intro > div {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.intro-left, .intro-right {
+    flex: 50%;
+}
+
+.intro-right > img {
+    width: 100%;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+}
+
+.play > div {
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.play-button {
+    color: #2549D3;
+    font-size: 66px;
+}
+
+.location {
+    margin: 100px 40px 40px 40px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.arrow {
+    border: solid #2549D3;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.location > div {
+    flex: 25%;
+    padding: 20px;
+}
+
+
+.why-us {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.why-us > div {
+    flex: 50%;
+    margin-right: 30px;
+}
+
+.why-us > div > img {
+    width: 100%;
+}
+
+.tick {
+    display: flex;
+}
+
+.tick p {
+    flex: 50%;
+}
+
+.tick1 {
+    font-size: 30px;
+    color: #2549D3;
+}
+
+.products {
+    margin: 100px 10px 10px 10px;
+}
+
+.product-card .card {
+    flex: 33;
+}
+.imgx {
+    display: flex;
+    justify-content: center;
+}
+
+#how, #p1 {
+    text-align: center;
+}
+
+#p1 {
+    font-size: 24px;
+}
+
+.description-1 {
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.featured-properties {
+    padding: 20px;
+    margin-top: 100px;
+}
+
+#our, #one {
+    text-align: center;
+}
+
+.featured-img, .product-card {
+    display: flex;
+}
+
+.card-featured, .card {
+    padding: 0px;
+    transition: 0.3s;
+    margin: 10px 10px 30px 10px;
+    border-radius: 30px;
+}
+
+.cf-1 {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-featured img {
+    width: 100%;
+}
+.card-featured:hover, .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.description {
+    text-align: center;
+    padding: 2px;
+    display: flex;
+}
+
+.description > div {
+    padding: 2px 16px;
+    flex: 50%;
+}
+
+#mula {
+    font-weight: 700;
+    color: #2549D3;
+}
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
+
+.view-more1 {
+    background-color: #2549D3;
+}
+
+.esteemed-customers {
+    padding: 20px;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.testimonies {
+    display: flex;
+    flex-direction: row;  
+    margin: 30px;
+    padding: 10px;
+}
+
+.esteemed-customers h1 {
+    text-align: center;
+}
+
+.view-more2 {
+    float: right;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #0F298B;
+    color: #FAFAFA;
+    margin-top: 100px;
+}
+
+.footer > div {
+    margin: 30px;
+    flex: 25%;
+}
+
+#title {
+    font-family: 'Oleo Script';
+    font-size: 30px;
+}
+
+@media (max-width: 540px) {
+    .intro, .location, .product-card, .why-us, .featured-img, .testimonies, .footer{
+      flex-direction: column;
+    }
+
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav.responsive {position: relative;}
+
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
